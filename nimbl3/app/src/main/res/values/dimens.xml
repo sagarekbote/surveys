@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="survey_title_textSize">32sp</dimen>
+    <dimen name="survey_description_textSize">20sp</dimen>
+    <dimen name="survey_title_marginTop">50dp</dimen>
+    <dimen name="survey_description_marginTop">20dp</dimen>
+    <dimen name="take_survey_button_marginBotton">60dp</dimen>
+    <dimen name="take_survey_button_paddingLeft">15dp</dimen>
+    <dimen name="take_survey_button_paddingRight">15dp</dimen>
+</resources>

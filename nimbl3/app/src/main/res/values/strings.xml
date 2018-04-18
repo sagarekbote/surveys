@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Surveys</string>
+    <string name="take_survey">Take Survey</string>
+    <string name="take_survey_details">Take Survey Details</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="take_survey_button_text">Take the Survey</string>
+    <string name="no_surveys_available">No surveys available at the moment</string>
+    <string name="unable_to_get_surveys">Unable to get surveys at the moment. Try later.</string>
+</resources>

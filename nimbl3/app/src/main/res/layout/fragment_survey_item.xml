@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.surveyapp.ui.SurveyItemFragment">
+
+    <ImageView
+        android:id="@+id/survey_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/survey_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/survey_title_textSize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/survey_title_marginTop"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/survey_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/survey_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/survey_description_textSize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/survey_description_marginTop"
+        android:text="Description"/>
+
+    <Button
+        android:id="@+id/take_survey_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/take_survey_button_text"
+        android:background="@drawable/take_survey_button_background"
+        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/take_survey_button_paddingLeft"
+        android:paddingRight="@dimen/take_survey_button_paddingRight"
+        android:layout_marginBottom="@dimen/take_survey_button_marginBotton"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
