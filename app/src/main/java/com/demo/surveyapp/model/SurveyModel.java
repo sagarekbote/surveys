@@ -2,162 +2,163 @@
 package com.demo.surveyapp.model;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class SurveyModel {
 
-    @SerializedName("id")
+    @SerializedName("mId")
     @Expose
-    private String id;
-    @SerializedName("title")
+    private String mId;
+    @SerializedName("mTitle")
     @Expose
-    private String title;
-    @SerializedName("description")
+    private String mTitle;
+    @SerializedName("mDescription")
     @Expose
-    private String description;
+    private String mDescription;
     @SerializedName("access_code_prompt")
     @Expose
-    private Object accessCodePrompt;
+    private Object mAccessCodePrompt;
     @SerializedName("thank_email_above_threshold")
     @Expose
-    private String thankEmailAboveThreshold;
+    private String mThankEmailAboveThreshold;
     @SerializedName("thank_email_below_threshold")
     @Expose
-    private String thankEmailBelowThreshold;
+    private String mThankEmailBelowThreshold;
     @SerializedName("footer_content")
     @Expose
-    private String footerContent;
+    private String mFooterContent;
     @SerializedName("is_active")
     @Expose
-    private Boolean isActive;
+    private Boolean mIsActive;
     @SerializedName("cover_image_url")
     @Expose
-    private String coverImageUrl;
+    private String mCoverImageUrl;
     @SerializedName("cover_background_color")
     @Expose
-    private Object coverBackgroundColor;
+    private Object mCoverBackgroundColor;
     @SerializedName("type")
     @Expose
     private String type;
     @SerializedName("created_at")
     @Expose
-    private String createdAt;
+    private String mCreatedAt;
     @SerializedName("active_at")
     @Expose
-    private String activeAt;
+    private String mActiveAt;
     @SerializedName("inactive_at")
     @Expose
-    private Object inactiveAt;
+    private Object mInactiveAt;
     @SerializedName("survey_version")
     @Expose
-    private Integer surveyVersion;
+    private Integer mSurveyVersion;
     @SerializedName("short_url")
     @Expose
-    private String shortUrl;
+    private String mShortUrl;
     @SerializedName("language_list")
     @Expose
-    private List<String> languageList = null;
+    private List<String> mLanguageList = null;
     @SerializedName("default_language")
     @Expose
-    private String defaultLanguage;
+    private String mDefaultLanguage;
     @SerializedName("tag_list")
     @Expose
-    private String tagList;
+    private String mTagList;
     @SerializedName("is_access_code_required")
     @Expose
-    private Boolean isAccessCodeRequired;
+    private Boolean mIsAccessCodeRequired;
     @SerializedName("is_access_code_valid_required")
     @Expose
-    private Boolean isAccessCodeValidRequired;
+    private Boolean mIsAccessCodeValidRequired;
     @SerializedName("access_code_validation")
     @Expose
-    private String accessCodeValidation;
-    @SerializedName("theme")
+    private String mAccessCodeValidation;
+    @SerializedName("mTheme")
     @Expose
-    private Theme theme;
-    @SerializedName("questions")
+    private Theme mTheme;
+    @SerializedName("mQuestions")
     @Expose
-    private List<Question> questions = null;
+    private List<Question> mQuestions = null;
 
     public String getId() {
-        return id;
+        return mId;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.mId = id;
     }
 
     public String getTitle() {
-        return title;
+        return mTitle;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.mTitle = title;
     }
 
     public String getDescription() {
-        return description;
+        return mDescription;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        this.mDescription = description;
     }
 
     public Object getAccessCodePrompt() {
-        return accessCodePrompt;
+        return mAccessCodePrompt;
     }
 
     public void setAccessCodePrompt(Object accessCodePrompt) {
-        this.accessCodePrompt = accessCodePrompt;
+        this.mAccessCodePrompt = accessCodePrompt;
     }
 
     public String getThankEmailAboveThreshold() {
-        return thankEmailAboveThreshold;
+        return mThankEmailAboveThreshold;
     }
 
     public void setThankEmailAboveThreshold(String thankEmailAboveThreshold) {
-        this.thankEmailAboveThreshold = thankEmailAboveThreshold;
+        this.mThankEmailAboveThreshold = thankEmailAboveThreshold;
     }
 
     public String getThankEmailBelowThreshold() {
-        return thankEmailBelowThreshold;
+        return mThankEmailBelowThreshold;
     }
 
     public void setThankEmailBelowThreshold(String thankEmailBelowThreshold) {
-        this.thankEmailBelowThreshold = thankEmailBelowThreshold;
+        this.mThankEmailBelowThreshold = thankEmailBelowThreshold;
     }
 
     public String getFooterContent() {
-        return footerContent;
+        return mFooterContent;
     }
 
     public void setFooterContent(String footerContent) {
-        this.footerContent = footerContent;
+        this.mFooterContent = footerContent;
     }
 
     public Boolean getIsActive() {
-        return isActive;
+        return mIsActive;
     }
 
     public void setIsActive(Boolean isActive) {
-        this.isActive = isActive;
+        this.mIsActive = isActive;
     }
 
     public String getCoverImageUrl() {
-        return coverImageUrl;
+        return mCoverImageUrl;
     }
 
     public void setCoverImageUrl(String coverImageUrl) {
-        this.coverImageUrl = coverImageUrl;
+        this.mCoverImageUrl = coverImageUrl;
     }
 
     public Object getCoverBackgroundColor() {
-        return coverBackgroundColor;
+        return mCoverBackgroundColor;
     }
 
     public void setCoverBackgroundColor(Object coverBackgroundColor) {
-        this.coverBackgroundColor = coverBackgroundColor;
+        this.mCoverBackgroundColor = coverBackgroundColor;
     }
 
     public String getType() {
@@ -169,106 +170,106 @@ public class SurveyModel {
     }
 
     public String getCreatedAt() {
-        return createdAt;
+        return mCreatedAt;
     }
 
     public void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
+        this.mCreatedAt = createdAt;
     }
 
     public String getActiveAt() {
-        return activeAt;
+        return mActiveAt;
     }
 
     public void setActiveAt(String activeAt) {
-        this.activeAt = activeAt;
+        this.mActiveAt = activeAt;
     }
 
     public Object getInactiveAt() {
-        return inactiveAt;
+        return mInactiveAt;
     }
 
     public void setInactiveAt(Object inactiveAt) {
-        this.inactiveAt = inactiveAt;
+        this.mInactiveAt = inactiveAt;
     }
 
     public Integer getSurveyVersion() {
-        return surveyVersion;
+        return mSurveyVersion;
     }
 
     public void setSurveyVersion(Integer surveyVersion) {
-        this.surveyVersion = surveyVersion;
+        this.mSurveyVersion = surveyVersion;
     }
 
     public String getShortUrl() {
-        return shortUrl;
+        return mShortUrl;
     }
 
     public void setShortUrl(String shortUrl) {
-        this.shortUrl = shortUrl;
+        this.mShortUrl = shortUrl;
     }
 
     public List<String> getLanguageList() {
-        return languageList;
+        return mLanguageList;
     }
 
     public void setLanguageList(List<String> languageList) {
-        this.languageList = languageList;
+        this.mLanguageList = languageList;
     }
 
     public String getDefaultLanguage() {
-        return defaultLanguage;
+        return mDefaultLanguage;
     }
 
     public void setDefaultLanguage(String defaultLanguage) {
-        this.defaultLanguage = defaultLanguage;
+        this.mDefaultLanguage = defaultLanguage;
     }
 
     public String getTagList() {
-        return tagList;
+        return mTagList;
     }
 
     public void setTagList(String tagList) {
-        this.tagList = tagList;
+        this.mTagList = tagList;
     }
 
     public Boolean getIsAccessCodeRequired() {
-        return isAccessCodeRequired;
+        return mIsAccessCodeRequired;
     }
 
     public void setIsAccessCodeRequired(Boolean isAccessCodeRequired) {
-        this.isAccessCodeRequired = isAccessCodeRequired;
+        this.mIsAccessCodeRequired = isAccessCodeRequired;
     }
 
     public Boolean getIsAccessCodeValidRequired() {
-        return isAccessCodeValidRequired;
+        return mIsAccessCodeValidRequired;
     }
 
     public void setIsAccessCodeValidRequired(Boolean isAccessCodeValidRequired) {
-        this.isAccessCodeValidRequired = isAccessCodeValidRequired;
+        this.mIsAccessCodeValidRequired = isAccessCodeValidRequired;
     }
 
     public String getAccessCodeValidation() {
-        return accessCodeValidation;
+        return mAccessCodeValidation;
     }
 
     public void setAccessCodeValidation(String accessCodeValidation) {
-        this.accessCodeValidation = accessCodeValidation;
+        this.mAccessCodeValidation = accessCodeValidation;
     }
 
     public Theme getTheme() {
-        return theme;
+        return mTheme;
     }
 
     public void setTheme(Theme theme) {
-        this.theme = theme;
+        this.mTheme = theme;
     }
 
     public List<Question> getQuestions() {
-        return questions;
+        return mQuestions;
     }
 
     public void setQuestions(List<Question> questions) {
-        this.questions = questions;
+        this.mQuestions = questions;
     }
 }

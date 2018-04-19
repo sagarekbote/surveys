@@ -10,7 +10,7 @@ import com.demo.surveyapp.model.SurveyModel;
 
 import java.util.List;
 
-public class SurveyViewModel extends AndroidViewModel{
+public class SurveyViewModel extends AndroidViewModel {
 
     private SurveyDataRepository mSurveyDataRepository;
     private LiveData<List<SurveyModel>> mSurveyList;
@@ -21,7 +21,7 @@ public class SurveyViewModel extends AndroidViewModel{
     }
 
     public LiveData<List<SurveyModel>> getSurveyList() {
-        if(mSurveyList == null) {
+        if (mSurveyList == null) {
             mSurveyList = mSurveyDataRepository.getSurveyList();
         }
         return mSurveyList;

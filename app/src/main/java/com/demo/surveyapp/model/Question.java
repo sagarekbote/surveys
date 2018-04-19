@@ -2,241 +2,242 @@
 package com.demo.surveyapp.model;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Question {
 
-    @SerializedName("id")
+    @SerializedName("mId")
     @Expose
-    private String id;
-    @SerializedName("text")
+    private String mId;
+    @SerializedName("mText")
     @Expose
-    private String text;
+    private String mText;
     @SerializedName("help_text")
     @Expose
-    private Object helpText;
+    private Object mHelpText;
     @SerializedName("display_order")
     @Expose
-    private Integer displayOrder;
+    private Integer mDisplayOrder;
     @SerializedName("short_text")
     @Expose
-    private String shortText;
-    @SerializedName("pick")
+    private String mShortText;
+    @SerializedName("mPick")
     @Expose
-    private String pick;
+    private String mPick;
     @SerializedName("display_type")
     @Expose
-    private String displayType;
+    private String mDisplayType;
     @SerializedName("is_mandatory")
     @Expose
-    private Boolean isMandatory;
+    private Boolean mIsMandatory;
     @SerializedName("correct_answer_id")
     @Expose
-    private Object correctAnswerId;
+    private Object mCorrectAnswerId;
     @SerializedName("facebook_profile")
     @Expose
-    private String facebookProfile;
+    private String mFacebookProfile;
     @SerializedName("twitter_profile")
     @Expose
-    private Object twitterProfile;
+    private Object mTwitterProfile;
     @SerializedName("image_url")
     @Expose
-    private Object imageUrl;
+    private Object mImageUrl;
     @SerializedName("cover_image_url")
     @Expose
-    private String coverImageUrl;
+    private String mCoverImageUrl;
     @SerializedName("cover_image_opacity")
     @Expose
-    private Double coverImageOpacity;
+    private Double mCoverImageOpacity;
     @SerializedName("cover_background_color")
     @Expose
-    private Object coverBackgroundColor;
+    private Object mCoverBackgroundColor;
     @SerializedName("is_shareable_on_facebook")
     @Expose
-    private Boolean isShareableOnFacebook;
+    private Boolean mIsShareableOnFacebook;
     @SerializedName("is_shareable_on_twitter")
     @Expose
-    private Boolean isShareableOnTwitter;
+    private Boolean mIsShareableOnTwitter;
     @SerializedName("font_face")
     @Expose
-    private Object fontFace;
+    private Object mFontFace;
     @SerializedName("font_size")
     @Expose
-    private Object fontSize;
+    private Object mFontSize;
     @SerializedName("tag_list")
     @Expose
-    private String tagList;
-    @SerializedName("answers")
+    private String mTagList;
+    @SerializedName("mAnswers")
     @Expose
-    private List<Answer> answers = null;
+    private List<Answer> mAnswers = null;
 
     public String getId() {
-        return id;
+        return mId;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.mId = id;
     }
 
     public String getText() {
-        return text;
+        return mText;
     }
 
     public void setText(String text) {
-        this.text = text;
+        this.mText = text;
     }
 
     public Object getHelpText() {
-        return helpText;
+        return mHelpText;
     }
 
-    public void setHelpText(Object helpText) {
-        this.helpText = helpText;
+    public void setHelpText(Object mHelpText) {
+        this.mHelpText = mHelpText;
     }
 
     public Integer getDisplayOrder() {
-        return displayOrder;
+        return mDisplayOrder;
     }
 
-    public void setDisplayOrder(Integer displayOrder) {
-        this.displayOrder = displayOrder;
+    public void setDisplayOrder(Integer mDisplayOrder) {
+        this.mDisplayOrder = mDisplayOrder;
     }
 
     public String getShortText() {
-        return shortText;
+        return mShortText;
     }
 
-    public void setShortText(String shortText) {
-        this.shortText = shortText;
+    public void setShortText(String mShortText) {
+        this.mShortText = mShortText;
     }
 
     public String getPick() {
-        return pick;
+        return mPick;
     }
 
     public void setPick(String pick) {
-        this.pick = pick;
+        this.mPick = pick;
     }
 
     public String getDisplayType() {
-        return displayType;
+        return mDisplayType;
     }
 
     public void setDisplayType(String displayType) {
-        this.displayType = displayType;
+        this.mDisplayType = displayType;
     }
 
     public Boolean getIsMandatory() {
-        return isMandatory;
+        return mIsMandatory;
     }
 
     public void setIsMandatory(Boolean isMandatory) {
-        this.isMandatory = isMandatory;
+        this.mIsMandatory = isMandatory;
     }
 
     public Object getCorrectAnswerId() {
-        return correctAnswerId;
+        return mCorrectAnswerId;
     }
 
     public void setCorrectAnswerId(Object correctAnswerId) {
-        this.correctAnswerId = correctAnswerId;
+        this.mCorrectAnswerId = correctAnswerId;
     }
 
     public String getFacebookProfile() {
-        return facebookProfile;
+        return mFacebookProfile;
     }
 
     public void setFacebookProfile(String facebookProfile) {
-        this.facebookProfile = facebookProfile;
+        this.mFacebookProfile = facebookProfile;
     }
 
     public Object getTwitterProfile() {
-        return twitterProfile;
+        return mTwitterProfile;
     }
 
-    public void setTwitterProfile(Object twitterProfile) {
-        this.twitterProfile = twitterProfile;
+    public void setTwitterProfile(Object mTwitterProfile) {
+        this.mTwitterProfile = mTwitterProfile;
     }
 
     public Object getImageUrl() {
-        return imageUrl;
+        return mImageUrl;
     }
 
     public void setImageUrl(Object imageUrl) {
-        this.imageUrl = imageUrl;
+        this.mImageUrl = imageUrl;
     }
 
     public String getCoverImageUrl() {
-        return coverImageUrl;
+        return mCoverImageUrl;
     }
 
     public void setCoverImageUrl(String coverImageUrl) {
-        this.coverImageUrl = coverImageUrl;
+        this.mCoverImageUrl = coverImageUrl;
     }
 
     public Double getCoverImageOpacity() {
-        return coverImageOpacity;
+        return mCoverImageOpacity;
     }
 
     public void setCoverImageOpacity(Double coverImageOpacity) {
-        this.coverImageOpacity = coverImageOpacity;
+        this.mCoverImageOpacity = coverImageOpacity;
     }
 
     public Object getCoverBackgroundColor() {
-        return coverBackgroundColor;
+        return mCoverBackgroundColor;
     }
 
     public void setCoverBackgroundColor(Object coverBackgroundColor) {
-        this.coverBackgroundColor = coverBackgroundColor;
+        this.mCoverBackgroundColor = coverBackgroundColor;
     }
 
     public Boolean getIsShareableOnFacebook() {
-        return isShareableOnFacebook;
+        return mIsShareableOnFacebook;
     }
 
     public void setIsShareableOnFacebook(Boolean isShareableOnFacebook) {
-        this.isShareableOnFacebook = isShareableOnFacebook;
+        this.mIsShareableOnFacebook = isShareableOnFacebook;
     }
 
     public Boolean getIsShareableOnTwitter() {
-        return isShareableOnTwitter;
+        return mIsShareableOnTwitter;
     }
 
     public void setIsShareableOnTwitter(Boolean isShareableOnTwitter) {
-        this.isShareableOnTwitter = isShareableOnTwitter;
+        this.mIsShareableOnTwitter = isShareableOnTwitter;
     }
 
     public Object getFontFace() {
-        return fontFace;
+        return mFontFace;
     }
 
     public void setFontFace(Object fontFace) {
-        this.fontFace = fontFace;
+        this.mFontFace = fontFace;
     }
 
     public Object getFontSize() {
-        return fontSize;
+        return mFontSize;
     }
 
     public void setFontSize(Object fontSize) {
-        this.fontSize = fontSize;
+        this.mFontSize = fontSize;
     }
 
     public String getTagList() {
-        return tagList;
+        return mTagList;
     }
 
     public void setTagList(String tagList) {
-        this.tagList = tagList;
+        this.mTagList = tagList;
     }
 
     public List<Answer> getAnswers() {
-        return answers;
+        return mAnswers;
     }
 
     public void setAnswers(List<Answer> answers) {
-        this.answers = answers;
+        this.mAnswers = answers;
     }
 
 }

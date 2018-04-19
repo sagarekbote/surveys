@@ -26,6 +26,7 @@ public class SurveyDataRepository {
             public void onResponse(Call<List<SurveyModel>> call, Response<List<SurveyModel>> response) {
                 mSurveyList.setValue(response.body());
             }
+
             @Override
             public void onFailure(Call<List<SurveyModel>> call, Throwable t) {
                 mSurveyList.setValue(null);

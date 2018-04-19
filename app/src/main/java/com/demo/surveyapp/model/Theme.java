@@ -8,57 +8,57 @@ public class Theme {
 
     @SerializedName("color_active")
     @Expose
-    private String colorActive;
+    private String mColorActive;
     @SerializedName("color_inactive")
     @Expose
-    private String colorInactive;
+    private String mColorInactive;
     @SerializedName("color_question")
     @Expose
-    private String colorQuestion;
+    private String mColorQuestion;
     @SerializedName("color_answer_normal")
     @Expose
-    private String colorAnswerNormal;
+    private String mColorAnswerNormal;
     @SerializedName("color_answer_inactive")
     @Expose
-    private String colorAnswerInactive;
+    private String mColorAnswerInactive;
 
     public String getColorActive() {
-        return colorActive;
+        return mColorActive;
     }
 
     public void setColorActive(String colorActive) {
-        this.colorActive = colorActive;
+        this.mColorActive = colorActive;
     }
 
     public String getColorInactive() {
-        return colorInactive;
+        return mColorInactive;
     }
 
     public void setColorInactive(String colorInactive) {
-        this.colorInactive = colorInactive;
+        this.mColorInactive = colorInactive;
     }
 
     public String getColorQuestion() {
-        return colorQuestion;
+        return mColorQuestion;
     }
 
     public void setColorQuestion(String colorQuestion) {
-        this.colorQuestion = colorQuestion;
+        this.mColorQuestion = colorQuestion;
     }
 
     public String getColorAnswerNormal() {
-        return colorAnswerNormal;
+        return mColorAnswerNormal;
     }
 
     public void setColorAnswerNormal(String colorAnswerNormal) {
-        this.colorAnswerNormal = colorAnswerNormal;
+        this.mColorAnswerNormal = colorAnswerNormal;
     }
 
     public String getColorAnswerInactive() {
-        return colorAnswerInactive;
+        return mColorAnswerInactive;
     }
 
     public void setColorAnswerInactive(String colorAnswerInactive) {
-        this.colorAnswerInactive = colorAnswerInactive;
+        this.mColorAnswerInactive = colorAnswerInactive;
     }
 }

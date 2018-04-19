@@ -26,13 +26,18 @@ import butterknife.OnClick;
 public class SurveyActivity extends AppCompatActivity {
 
     private SurveyAdapter mSectionsPagerAdapter;
-    @BindView(R.id.container_layout) View mContainerLayout;
-    @BindView(R.id.viewpager) ViewPager mViewPager;
+    @BindView(R.id.container_layout)
+    View mContainerLayout;
+    @BindView(R.id.viewpager)
+    ViewPager mViewPager;
     @BindView(R.id.pageIndicatorView)
     PageIndicatorView mPageIndicatorView;
-    @BindView(R.id.progressBar) ProgressBar mProgressBar;
-    @BindView(R.id.toolbar) Toolbar mToolbar;
-    @BindView(R.id.info_text_view) TextView mInfoTextView;
+    @BindView(R.id.progressBar)
+    ProgressBar mProgressBar;
+    @BindView(R.id.toolbar)
+    Toolbar mToolbar;
+    @BindView(R.id.info_text_view)
+    TextView mInfoTextView;
     private SurveyViewModel mSurveyViewModel;
     @BindView(R.id.settings_imagebutton)
     ImageButton mSettingsImageButton;
@@ -58,8 +63,8 @@ public class SurveyActivity extends AppCompatActivity {
             public void onChanged(@Nullable List<SurveyModel> surveyModels) {
 
                 mProgressBar.setVisibility(View.GONE);
-                if(surveyModels != null) {
-                    if(surveyModels.size() > 0) {
+                if (surveyModels != null) {
+                    if (surveyModels.size() > 0) {
                         mSectionsPagerAdapter = new SurveyAdapter(getSupportFragmentManager(), surveyModels);
                         mViewPager.setAdapter(mSectionsPagerAdapter);
                         mPageIndicatorView.setCount(surveyModels.size());

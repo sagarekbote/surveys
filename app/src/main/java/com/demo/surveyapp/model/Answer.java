@@ -2,251 +2,252 @@
 package com.demo.surveyapp.model;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Answer {
 
-    @SerializedName("id")
+    @SerializedName("mId")
     @Expose
-    private String id;
+    private String mId;
     @SerializedName("question_id")
     @Expose
-    private String questionId;
-    @SerializedName("text")
+    private String mQuestionId;
+    @SerializedName("mText")
     @Expose
-    private String text;
+    private String mText;
     @SerializedName("help_text")
     @Expose
-    private Object helpText;
+    private Object mHelpText;
     @SerializedName("input_mask_placeholder")
     @Expose
-    private String inputMaskPlaceholder;
+    private String mInputMaskPlaceholder;
     @SerializedName("short_text")
     @Expose
-    private String shortText;
+    private String mShortText;
     @SerializedName("is_mandatory")
     @Expose
-    private Boolean isMandatory;
+    private Boolean mIsMandatory;
     @SerializedName("is_customer_first_name")
     @Expose
-    private Boolean isCustomerFirstName;
+    private Boolean mIsCustomerFirstName;
     @SerializedName("is_customer_last_name")
     @Expose
-    private Boolean isCustomerLastName;
+    private Boolean mIsCustomerLastName;
     @SerializedName("is_customer_title")
     @Expose
-    private Boolean isCustomerTitle;
+    private Boolean mIsCustomerTitle;
     @SerializedName("is_customer_email")
     @Expose
-    private Boolean isCustomerEmail;
+    private Boolean mIsCustomerEmail;
     @SerializedName("prompt_custom_answer")
     @Expose
-    private Boolean promptCustomAnswer;
-    @SerializedName("weight")
+    private Boolean mPromptCustomAnswer;
+    @SerializedName("mWeight")
     @Expose
-    private Object weight;
+    private Object mWeight;
     @SerializedName("display_order")
     @Expose
-    private Integer displayOrder;
+    private Integer mDisplayOrder;
     @SerializedName("display_type")
     @Expose
-    private String displayType;
+    private String mDisplayType;
     @SerializedName("input_mask")
     @Expose
-    private String inputMask;
+    private String mInputMask;
     @SerializedName("date_constraint")
     @Expose
-    private Object dateConstraint;
+    private Object mDateConstraint;
     @SerializedName("default_value")
     @Expose
-    private Object defaultValue;
+    private Object mDefaultValue;
     @SerializedName("response_class")
     @Expose
-    private String responseClass;
+    private String mResponseClass;
     @SerializedName("reference_identifier")
     @Expose
-    private Object referenceIdentifier;
-    @SerializedName("score")
+    private Object mReferenceIdentifier;
+    @SerializedName("mScore")
     @Expose
-    private Object score;
-    @SerializedName("alerts")
+    private Object mScore;
+    @SerializedName("mAlerts")
     @Expose
-    private List<Object> alerts = null;
+    private List<Object> mAlerts = null;
 
     public String getId() {
-        return id;
+        return mId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String mId) {
+        this.mId = mId;
     }
 
     public String getQuestionId() {
-        return questionId;
+        return mQuestionId;
     }
 
-    public void setQuestionId(String questionId) {
-        this.questionId = questionId;
+    public void setQuestionId(String mQuestionId) {
+        this.mQuestionId = mQuestionId;
     }
 
     public String getText() {
-        return text;
+        return mText;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setText(String mText) {
+        this.mText = mText;
     }
 
     public Object getHelpText() {
-        return helpText;
+        return mHelpText;
     }
 
-    public void setHelpText(Object helpText) {
-        this.helpText = helpText;
+    public void setHelpText(Object mHelpText) {
+        this.mHelpText = mHelpText;
     }
 
     public String getInputMaskPlaceholder() {
-        return inputMaskPlaceholder;
+        return mInputMaskPlaceholder;
     }
 
-    public void setInputMaskPlaceholder(String inputMaskPlaceholder) {
-        this.inputMaskPlaceholder = inputMaskPlaceholder;
+    public void setInputMaskPlaceholder(String mInputMaskPlaceholder) {
+        this.mInputMaskPlaceholder = mInputMaskPlaceholder;
     }
 
     public String getShortText() {
-        return shortText;
+        return mShortText;
     }
 
-    public void setShortText(String shortText) {
-        this.shortText = shortText;
+    public void setShortText(String mShortText) {
+        this.mShortText = mShortText;
     }
 
     public Boolean getIsMandatory() {
-        return isMandatory;
+        return mIsMandatory;
     }
 
-    public void setIsMandatory(Boolean isMandatory) {
-        this.isMandatory = isMandatory;
+    public void setIsMandatory(Boolean mIsMandatory) {
+        this.mIsMandatory = mIsMandatory;
     }
 
     public Boolean getIsCustomerFirstName() {
-        return isCustomerFirstName;
+        return mIsCustomerFirstName;
     }
 
-    public void setIsCustomerFirstName(Boolean isCustomerFirstName) {
-        this.isCustomerFirstName = isCustomerFirstName;
+    public void setIsCustomerFirstName(Boolean mIsCustomerFirstName) {
+        this.mIsCustomerFirstName = mIsCustomerFirstName;
     }
 
     public Boolean getIsCustomerLastName() {
-        return isCustomerLastName;
+        return mIsCustomerLastName;
     }
 
-    public void setIsCustomerLastName(Boolean isCustomerLastName) {
-        this.isCustomerLastName = isCustomerLastName;
+    public void setIsCustomerLastName(Boolean mIsCustomerLastName) {
+        this.mIsCustomerLastName = mIsCustomerLastName;
     }
 
     public Boolean getIsCustomerTitle() {
-        return isCustomerTitle;
+        return mIsCustomerTitle;
     }
 
-    public void setIsCustomerTitle(Boolean isCustomerTitle) {
-        this.isCustomerTitle = isCustomerTitle;
+    public void setIsCustomerTitle(Boolean mIsCustomerTitle) {
+        this.mIsCustomerTitle = mIsCustomerTitle;
     }
 
     public Boolean getIsCustomerEmail() {
-        return isCustomerEmail;
+        return mIsCustomerEmail;
     }
 
-    public void setIsCustomerEmail(Boolean isCustomerEmail) {
-        this.isCustomerEmail = isCustomerEmail;
+    public void setIsCustomerEmail(Boolean mIsCustomerEmail) {
+        this.mIsCustomerEmail = mIsCustomerEmail;
     }
 
     public Boolean getPromptCustomAnswer() {
-        return promptCustomAnswer;
+        return mPromptCustomAnswer;
     }
 
-    public void setPromptCustomAnswer(Boolean promptCustomAnswer) {
-        this.promptCustomAnswer = promptCustomAnswer;
+    public void setPromptCustomAnswer(Boolean mPromptCustomAnswer) {
+        this.mPromptCustomAnswer = mPromptCustomAnswer;
     }
 
     public Object getWeight() {
-        return weight;
+        return mWeight;
     }
 
-    public void setWeight(Object weight) {
-        this.weight = weight;
+    public void setWeight(Object mWeight) {
+        this.mWeight = mWeight;
     }
 
     public Integer getDisplayOrder() {
-        return displayOrder;
+        return mDisplayOrder;
     }
 
-    public void setDisplayOrder(Integer displayOrder) {
-        this.displayOrder = displayOrder;
+    public void setDisplayOrder(Integer mDisplayOrder) {
+        this.mDisplayOrder = mDisplayOrder;
     }
 
     public String getDisplayType() {
-        return displayType;
+        return mDisplayType;
     }
 
-    public void setDisplayType(String displayType) {
-        this.displayType = displayType;
+    public void setDisplayType(String mDisplayType) {
+        this.mDisplayType = mDisplayType;
     }
 
     public String getInputMask() {
-        return inputMask;
+        return mInputMask;
     }
 
-    public void setInputMask(String inputMask) {
-        this.inputMask = inputMask;
+    public void setInputMask(String mInputMask) {
+        this.mInputMask = mInputMask;
     }
 
     public Object getDateConstraint() {
-        return dateConstraint;
+        return mDateConstraint;
     }
 
-    public void setDateConstraint(Object dateConstraint) {
-        this.dateConstraint = dateConstraint;
+    public void setDateConstraint(Object mDateConstraint) {
+        this.mDateConstraint = mDateConstraint;
     }
 
     public Object getDefaultValue() {
-        return defaultValue;
+        return mDefaultValue;
     }
 
-    public void setDefaultValue(Object defaultValue) {
-        this.defaultValue = defaultValue;
+    public void setDefaultValue(Object mDefaultValue) {
+        this.mDefaultValue = mDefaultValue;
     }
 
     public String getResponseClass() {
-        return responseClass;
+        return mResponseClass;
     }
 
-    public void setResponseClass(String responseClass) {
-        this.responseClass = responseClass;
+    public void setResponseClass(String mResponseClass) {
+        this.mResponseClass = mResponseClass;
     }
 
     public Object getReferenceIdentifier() {
-        return referenceIdentifier;
+        return mReferenceIdentifier;
     }
 
-    public void setReferenceIdentifier(Object referenceIdentifier) {
-        this.referenceIdentifier = referenceIdentifier;
+    public void setReferenceIdentifier(Object mReferenceIdentifier) {
+        this.mReferenceIdentifier = mReferenceIdentifier;
     }
 
     public Object getScore() {
-        return score;
+        return mScore;
     }
 
-    public void setScore(Object score) {
-        this.score = score;
+    public void setScore(Object mScore) {
+        this.mScore = mScore;
     }
 
     public List<Object> getAlerts() {
-        return alerts;
+        return mAlerts;
     }
 
-    public void setAlerts(List<Object> alerts) {
-        this.alerts = alerts;
+    public void setAlerts(List<Object> mAlerts) {
+        this.mAlerts = mAlerts;
     }
 }
