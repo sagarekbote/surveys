@@ -6,4 +6,5 @@
     <dimen name="take_survey_button_marginBotton">60dp</dimen>
     <dimen name="take_survey_button_paddingLeft">15dp</dimen>
     <dimen name="take_survey_button_paddingRight">15dp</dimen>
+    <dimen name="page_indicator_right_margin">20dp</dimen>
 </resources>
